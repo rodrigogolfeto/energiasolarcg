@@ -15,8 +15,9 @@
 <body>
     <div class="container pt-4">
 
-        <img src="images/capa.png" alt="Energia Solar CG" class="w-100 mt-2" />
 
+
+        <img src="images/capa.png" alt="Energia Solar CG" class="w-100 mt-2" />
         <div class="row d-flex justify-content-between">
             <div class="col px-5 py-4">
                 <div class="font-28 font-italic color-91b122">PROPOSTA</div>
@@ -36,7 +37,11 @@
             </div>
         </div>
 
+
+
         <div class="quebrar-pagina"></div>
+
+
 
         <div class="text-center pt-5">
             <img src="images/logo-solar.png" alt="Logo Solar" class="py-4 mb-4 mt-4" />
@@ -46,7 +51,11 @@
             <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20">www.energiasolarpp.com.br</div>
         </div>
 
+
+
         <div class="quebrar-pagina"></div>
+
+
 
         <div class="text-center pt-5">
             <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">NOSSAS INSTALAÇÕES</h3>
@@ -92,45 +101,219 @@
         </div>
 
 
+
         <div class="quebrar-pagina"></div>
+
+
 
         <div class="text-center">
             <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">SOLUÇÃO PROPOSTA</h3>
+            <div class="1d5037">
+                <h4>EQUIPAMENTOS</h4>
+                <p>
+                    Inversor solar:<br>
+                    1 Fronius Primo 4.0-1 4kW 220V<br>
+                    Módulos fotovoltaicos:<br>
+                    9 Trina Solar TSM-DE15M II Monocristalino 400W<br>
+                    Área necessária:<br>
+                    18 m²<br>
+                    Estimativa de geração mensal:<br>
+                    450 kWh/mês*<br>
+                    * Alterável em função do clima
+                </p>
+
+                <h4>INFORMAÇÕES FINANCEIRAS</h4>
+                <div class="row">
+                    <div class="col-4">
+                        Valor à vista:
+                        R$ 21.402,37
+                    </div>
+                    <div class="col-4">
+                        Entrada:
+                        R$ 5.000,00
+                    </div>
+                    <div class="col-4">
+                        Taxa de juros
+                        a partir de 0,99% a.m.
+                    </div>
+
+                    <div class="col-4">
+                        6 parcelas
+                        R$ 2.733,73
+                        sem juros
+                    </div>
+                    <div class="col-4">
+                        12 parcelas
+                        R$ 1.456,41
+                    </div>
+                    <div class="col-4">
+                        24 parcelas
+                        R$ 771,20
+                    </div>
+
+                    <div class="col-4">
+                        36 parcelas
+                        R$ 543,85
+                    </div>
+                    <div class="col-4">
+                        48 parcelas
+                        R$ 430,97
+                    </div>
+                    <div class="col-4">
+                        60 parcelas
+                        R$ 363,87
+                    </div>
+                </div>
+
+                IMPORTANTE:
+                <p>
+                    O valor cobre a compra e a instalação da unidade geradora<br />
+                    Adequações estruturais são de responsabilidade do proprietário<br />
+                    A taxa de juros e o parcelamento podem variar de acordo com o score do cliente<br />
+                    Os equipamentos podem ser substituídos sem aviso prévio quando não há exigência de marca
+                </p>
+            </div>
+            <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+        </div>
 
 
-            <h4>EQUIPAMENTOS</h4>
 
-            <br><br><br><br>
-
-            Inversor solar:
-            1 Fronius Primo 4.0-1 4kW 220V
-            Módulos fotovoltaicos:
-            9 Trina Solar TSM-DE15M II Monocristalino 400W
-            Área necessária:
-            18 m²
-            Estimativa de geração mensal:
-            450 kWh/mês*
-            * Alterável em função do clima
+        <div class="quebrar-pagina"></div>
 
 
-            Valor à vista: Entrada: Taxa de juros
-            a partir de 0,99% a.m.
-            6 parcelas 12 parcelas 24 parcelas
-            sem juros
-            36 parcelas 48 parcelas 60 parcelas
+
+        <div class="text-center">
+            <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">CRONOGRAMA</h3>
+
+            Projeto Prazo: 7 dias
+            Responsabilidade: SOLAR PP
+            Com base no seu consumo e no perfil de uso que você definir,
+            nós montamos o projeto para atender todas as suas expectativas.
+
+            Análise Prazo: 20 dias
+            Responsabilidade: Concessionária
+            Nesta fase o seu projeto é enviado para a concessionária verificar
+            se está tudo de acordo com as legislações vigentes.
+
+            Vistoria Prazo: 7 dias
+            Responsabilidade: Concessionária
+            Após o projeto ser aprovado, a concessionária emite o parecer de acesso
+            e então solicitamos o agendamento da vistoria do local.
+
+            Operação Prazo: 7 dias
+            Responsabilidade: Concessionária
+            Após a aprovação da vistoria nós solicitamos a troca do seu relógio
+            medidor de energia para um modelo capaz de registrar o que você
+            está gerando, e após trocado o seu sistema está liberado para uso.
+
             IMPORTANTE:
-            O valor cobre a compra e a instalação da unidade geradora
-            Adequações estruturais são de responsabilidade do proprietário
-            A taxa de juros e o parcelamento podem variar de acordo com o score do cliente
-            Os equipamentos podem ser substituídos sem aviso prévio quando não há exigência de marca
+            Os prazos podem variar em função da disponibiidade da concessionária
+            Os sistemas podem demorar até 60 dias para entrarem em operação
 
-            R$ 771,20
-            R$ 430,97 R$ 363,87
-            R$ 2.733,73 R$ 1.456,41
-            R$ 543,85
-            R$ 21.402,37 R$ 5.000,00
+            <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+
+        </div>
 
 
+
+        <div class="quebrar-pagina"></div>
+
+
+
+        <div class="text-center">
+            <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">GERAÇÃO</h3>
+
+            A sua economia inicia imediatamente quando o seu projeto é homologado
+
+            ANTES:
+            R$ 362,75
+
+            DEPOIS:
+            R$ 36,28
+
+            Você passará a pagar apenas o consumo
+            mínimo regulamentado para o seu padrão.
+            456 kWh/mês
+            Média mensal de geração
+            5469 kWh
+            Estimativa anual de geração
+
+            [gráfico]
+
+            Produção em kWh/mês calculada através de dados meteorológicos
+            da sua cidade e da capacidade dos equipamentos instalados.
+            Os resultados podem variar em função do clima.
+
+            <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+
+        </div>
+
+
+
+        <div class="quebrar-pagina"></div>
+
+
+
+        <div class="text-center">
+            <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">INVESTIMENTO</h3>
+
+            A própria economia gerada pelo seu sistema pode ser utilizada como
+            parâmetro para pagamento da sua geradora.
+
+            PAYBACK
+            4 anos e 1 mês
+
+            RETORNO SOBRE INVESTIMENTO
+            R$ 1.792.141,56
+
+            Payback é o tempo em que apenas a economia gerada pelo seu sistema
+            demoraria para pagar a sua unidade geradora, ou seja, após este tempo
+            tudo pode ser considerado como lucro pois o seu sistema já estará pago.
+            Considerando a compra da unidade geradora como um investimento,
+            o ROI seria o montante acumulado ao longo da vida útil dos módulos
+            considerando os reajustes das tarifas e inflação. É muita economia.
+
+            [gráfico]
+
+            <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+        </div>
+
+
+
+        <div class="quebrar-pagina"></div>
+
+
+
+        <div>
+            <div>
+                MATRIZ
+                Rua Vitório Andreasi Neto, 115, Servantes II
+                Presidente Prudente - SP
+                18 3217 4805 18 99646 9193
+            </div>
+
+            <div>
+                UNIDADE ALPHAVILLE
+                Em breve mais informações sobre a localização
+                São Paulo - SP
+                11 2853 5800 11 99145 1213
+            </div>
+
+            <div>
+                UNIDADE CAMPO GRANDE
+                Avenida da Capital, 836, Vila Rica
+                Campo Grande - MS
+                67 3015 8880 67 98467 4600
+            </div>
+
+            <div>
+                UNIDADE SUL
+                Rua Quintino Bocaiúva, 1102, Centro
+                Guarapuava - PR
+                42 9946 9466 42 99109 5094
+            </div>
+
+            <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
         </div>
 
 
