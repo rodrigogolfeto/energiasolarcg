@@ -106,73 +106,76 @@
 
 
 
-        <div class="text-center">
+        <div class="text-center 1d5037">
             <h3 class="color-fe3b00 pt-5 pb-4 d-inline-block mt-4">SOLUÇÃO PROPOSTA</h3>
-            <div class="1d5037">
-                <h4>EQUIPAMENTOS</h4>
-                <p>
-                    Inversor solar:<br>
-                    1 Fronius Primo 4.0-1 4kW 220V<br>
-                    Módulos fotovoltaicos:<br>
-                    9 Trina Solar TSM-DE15M II Monocristalino 400W<br>
-                    Área necessária:<br>
-                    18 m²<br>
-                    Estimativa de geração mensal:<br>
-                    450 kWh/mês*<br>
-                    * Alterável em função do clima
-                </p>
+            
+            <div class="border-subtitle d-block">EQUIPAMENTOS</div>
 
-                <h4>INFORMAÇÕES FINANCEIRAS</h4>
-                <div class="row">
-                    <div class="col-4">
-                        Valor à vista:
-                        R$ 21.402,37
-                    </div>
-                    <div class="col-4">
-                        Entrada:
-                        R$ 5.000,00
-                    </div>
-                    <div class="col-4">
-                        Taxa de juros
-                        a partir de 0,99% a.m.
-                    </div>
+            <span class="border-signature-2 d-block mt-5 color-1d5033 font-italic font-14 font-weight-bold">De acordo</span>
 
-                    <div class="col-4">
-                        6 parcelas
-                        R$ 2.733,73
-                        sem juros
-                    </div>
-                    <div class="col-4">
-                        12 parcelas
-                        R$ 1.456,41
-                    </div>
-                    <div class="col-4">
-                        24 parcelas
-                        R$ 771,20
-                    </div>
+            <p>
+                Inversor solar:<br>
+                1 Fronius Primo 4.0-1 4kW 220V<br>
+                Módulos fotovoltaicos:<br>
+                9 Trina Solar TSM-DE15M II Monocristalino 400W<br>
+                Área necessária:<br>
+                18 m²<br>
+                Estimativa de geração mensal:<br>
+                450 kWh/mês*<br>
+                * Alterável em função do clima
+            </p>
 
-                    <div class="col-4">
-                        36 parcelas
-                        R$ 543,85
-                    </div>
-                    <div class="col-4">
-                        48 parcelas
-                        R$ 430,97
-                    </div>
-                    <div class="col-4">
-                        60 parcelas
-                        R$ 363,87
-                    </div>
+            <h4>INFORMAÇÕES FINANCEIRAS</h4>
+            <div class=" row">
+                <div class="col-4">
+                    Valor à vista:
+                    R$ 21.402,37
+                </div>
+                <div class="col-4">
+                    Entrada:
+                    R$ 5.000,00
+                </div>
+                <div class="col-4">
+                    Taxa de juros
+                    a partir de 0,99% a.m.
                 </div>
 
-                IMPORTANTE:
-                <p>
-                    O valor cobre a compra e a instalação da unidade geradora<br />
-                    Adequações estruturais são de responsabilidade do proprietário<br />
-                    A taxa de juros e o parcelamento podem variar de acordo com o score do cliente<br />
-                    Os equipamentos podem ser substituídos sem aviso prévio quando não há exigência de marca
-                </p>
+                <div class="col-4">
+                    6 parcelas
+                    R$ 2.733,73
+                    sem juros
+                </div>
+                <div class="col-4">
+                    12 parcelas
+                    R$ 1.456,41
+                </div>
+                <div class="col-4">
+                    24 parcelas
+                    R$ 771,20
+                </div>
+
+                <div class="col-4">
+                    36 parcelas
+                    R$ 543,85
+                </div>
+                <div class="col-4">
+                    48 parcelas
+                    R$ 430,97
+                </div>
+                <div class="col-4">
+                    60 parcelas
+                    R$ 363,87
+                </div>
             </div>
+
+            IMPORTANTE:
+            <p>
+                O valor cobre a compra e a instalação da unidade geradora<br />
+                Adequações estruturais são de responsabilidade do proprietário<br />
+                A taxa de juros e o parcelamento podem variar de acordo com o score do cliente<br />
+                Os equipamentos podem ser substituídos sem aviso prévio quando não há exigência de marca
+            </p>
+
             <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
         </div>
 
