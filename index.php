@@ -12,19 +12,9 @@
     <title>Energia Solar CG</title>
 </head>
 
-<body onload="print();">
-    <!--  -->
+<body>
 
-
-
-
-
-
-
-
-
-
-
+    <!-- onload="print();" -->
 
     <!-- ##################################################################################################### -->
     <!-- ## PÁGINA 01 ######################################################################################## -->
@@ -143,7 +133,6 @@
             <span class="font-weight-bold font-30">450 kWh/mês*</span>
             <span class="font-20 d-block line-height-100">* Alterável em função do clima</span>
         </p>
-
         <div class="d-flex justify-content-center mb-4">
             <div class="border-subtitle col-10 font-30 font-weight-bold">INFORMAÇÕES FINANCEIRAS</div>
         </div>
@@ -161,9 +150,6 @@
                     Taxa de juros<br />
                     a partir de 0,99% a.m.
                 </div>
-
-
-
                 <div class="col-4 pt-4 pb-3 pl-5">
                     6 parcelas
                     <span class="d-block font-30 font-weight-bold">R$ 2.733,73</span>
@@ -177,9 +163,6 @@
                     24 parcelas
                     <span class="d-block font-30 font-weight-bold">R$ 771,20</span>
                 </div>
-
-
-
                 <div class="col-4 pt-4 pb-3 pl-5">
                     36 parcelas
                     <span class="d-block font-30 font-weight-bold">R$ 543,85</span>
@@ -194,7 +177,6 @@
                 </div>
             </div>
         </div>
-
         <span class="font-weight-bold font-22 d-block mb-2">IMPORTANTE:</span>
         <p class="line-height-200 font-23 pb-0 mb-0">
             O valor cobre a compra e a instalação da unidade geradora<br />
@@ -202,8 +184,7 @@
             A taxa de juros e o parcelamento podem variar de acordo com o score do cliente<br />
             Os equipamentos podem ser substituídos sem aviso prévio quando não há exigência de marca
         </p>
-
-        <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+        <div class="text-center text-white bg-color-fe3b00 w-100 py-2 font-22 mt-5 d-iline-block">www.energiasolarpp.com.br</div>
     </div>
     <!-- ##################################################################################################### -->
     <!-- ##################################################################################################### -->
@@ -292,7 +273,7 @@
                 Estimativa anual de geração
             </div>
         </div>
-        <div id="" style="width:930px;height:560px;margin:0 auto;background:#CACACA;margin-bottom:50px;"></div>
+        <div id="grafico1" style="width:930px;height:560px;margin:0 auto;background:#FFF;margin-bottom:50px;border:1px solid #CACACA !important;padding:10px 10px 0 10px !important;"></div>
         <p class="font-26 pb-5 line-height-180">Produção em kWh/mês calculada através de dados meteorológicos<br />da sua cidade e da capacidade dos equipamentos instalados.</p>
         <p class="font-26 color-fe3b00 font-weight-bold d-block mb-5">Os resultados podem variar em função do clima.</p>
         <div class="text-center text-white bg-color-fe3b00 w-100 py-2 font-22">www.energiasolarpp.com.br</div>
@@ -332,9 +313,9 @@
             considerando os reajustes das tarifas e inflação. É muita economia.<br />
         </p>
 
-        <div id="" style="width:930px;height:550px;margin:0 auto;background:#CACACA;margin-bottom:50px;"></div>
+        <div id="grafico2" style="width:930px;height:550px;margin:0 auto;background:#FFF;margin-bottom:50px;border:1px solid #CACACA !important;padding:10px 10px 0 10px !important;"></div>
 
-        <div class="text-center text-white bg-color-fe3b00 w-100 py-3 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+        <div class="text-center text-white bg-color-fe3b00 w-100 py-2 font-22 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
     </div>
     <!-- ##################################################################################################### -->
     <!-- ##################################################################################################### -->
@@ -386,7 +367,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center text-white bg-color-fe3b00 w-100 py-3 pt-4 font-20 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
+    <div class="text-center text-white bg-color-fe3b00 w-100 py-2 font-22 mt-5 d-inline-block">www.energiasolarpp.com.br</div>
     <!-- ##################################################################################################### -->
     <!-- ##################################################################################################### -->
 
