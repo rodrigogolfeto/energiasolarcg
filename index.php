@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/css.css">
-    <title>Energia Solar CG</title>
+    <title>PP Solar</title>
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <!-- ##################################################################################################### -->
     <!-- ## PÁGINA 01 ######################################################################################## -->
     <!-- ##################################################################################################### -->
-    <img src="images/capa.png" alt="Energia Solar CG" class="w-100 mt-2" height="1200px" />
-    <div class="row d-flex justify-content-between padding-30">
-        <div class="col-7 px-5 pt-4 pb-0 mb-0">
+    
+    <div class="row d-flex justify-content-between padding-30" style="background:url(images/capa.png) no-repeat center center;background-size:cover;height:1500px;">
+        <div class="col-7 px-5 pt-4 pb-0 mb-0" style="margin-top:1200px;">
             <div class="font-38 font-italic color-91b122">PROPOSTA</div>
             <div class="font-34 color-1d5033 line-height-140 mb-3">
                 <span class="d-block font-weight-bold">Jenifer do Tinder</span>
@@ -30,11 +30,12 @@
                 <span class="font-italic color-1d5033 font-20">Válida até: 17/08/19</span>
             </div>
         </div>
-        <div class="col-5 px-5 pt-4 pb-0 mb-0 text-right color-fe3b00 font-28 line-height-130">
+        <div class="col-5 px-5 pt-4 pb-0 mb-0 text-right color-fe3b00 font-28 line-height-130" style="margin-top:800px;">
             <div class="pb-5 mb-4">
                 <span class="font-weight-bold d-block pt-4">Cotação: 1932</span>
                 <span class="font-weight-light d-block mb-5">Unidade: Prudente<br />Vendedor: Gabriel</span>
             </div>
+            <img src="images/qrcode.png" alt="" style="margin-right:20px;width:200px;" />
             <span class="d-block border-signature color-1d5033 font-italic font-weight-light font-22">De acordo</span>
         </div>
     </div>
@@ -380,6 +381,218 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
     <script src="javascript/efeitos.js"></script>
+
+    <script>
+        imprimir = 0;
+
+        Highcharts.chart('grafico1', {
+            chart: {
+                type: 'column',
+                events: {
+                    load: function() {
+                        imprimir++;
+                        if (imprimir == 2) {
+                            setTimeout(function() {
+                                print();
+                            }, 1500);
+                        }
+                    }
+                }
+            },
+            colors: ['#91B122'],
+            plotOptions: {
+                column: {
+                    pointPadding: 0.35,
+                    borderWidth: 0
+                }
+            },
+            title: {
+                text: 'QUANTO MEU SISTEMA IRÁ PRODUZIR?',
+                style: {
+                    fontSize: '22px',
+                    fontFamily: 'Verdana, sans-serif',
+                    fontWeight: 'bold',
+                    color: '#595959'
+                },
+
+            },
+            subtitle: {
+                text: ''
+            },
+            xAxis: {
+                type: 'category',
+                labels: {
+                    rotation: 0,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif',
+                        fontWeight: 'bold'
+                    }
+                },
+                gridLineWidth: 1,
+            },
+            yAxis: {
+                min: 0,
+                max: 601,
+                title: {
+                    text: ''
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0,
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: ''
+            },
+            series: [{
+                name: 'Population',
+                data: [
+                    ['JAN', 508],
+                    ['FEV', 470],
+                    ['MAR', 493],
+                    ['ABR', 442],
+                    ['MAI', 390],
+                    ['JUN', 353],
+                    ['JUL', 386],
+                    ['AGO', 464],
+                    ['SET', 431],
+                    ['OUT', 488],
+                    ['NOV', 503],
+                    ['DEZ', 543]
+                ],
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#7F7F7F',
+                    align: 'right',
+                    format: '{point.y}',
+                    y: -45,
+                    style: {
+                        fontSize: '16px',
+                        fontFamily: 'Verdana, sans-serif',
+                        fontWeight: 'bold'
+                    }
+                }
+            }]
+        });
+
+
+        Highcharts.chart('grafico2', {
+            chart: {
+                type: 'column',
+                events: {
+                    load: function() {
+                        imprimir++;
+                        if (imprimir == 2) {
+                            setTimeout(function() {
+                                print();
+                            }, 1500);
+                        }
+                    }
+                }
+            },
+            colors: ['#91B122'],
+            plotOptions: {
+                column: {
+                    pointPadding: 0.35,
+                    borderWidth: 0
+                }
+            },
+            title: {
+                text: 'RETORNO SOBRE INVESTIMENTO',
+                style: {
+                    fontSize: '22px',
+                    fontFamily: 'Verdana, sans-serif',
+                    fontWeight: 'bold',
+                    color: '#595959'
+                },
+
+            },
+            subtitle: {
+                text: ''
+            },
+            xAxis: {
+                type: 'category',
+                labels: {
+                    rotation: 0,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif',
+                        fontWeight: 'bold'
+                    }
+                },
+                gridLineWidth: 1,
+            },
+            yAxis: {
+                min: -20000,
+                max: 3500000,
+                title: {
+                    text: ''
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0,
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: ''
+            },
+            series: [{
+                name: 'Population',
+                data: [
+                    ['0', -21402.37],
+                    ['1', -6986.69],
+                    ['2', -164.62],
+                    ['3', 8008.21],
+                    ['4', 17799.26],
+                    ['5', 29528.94],
+                    ['6', 43581.10],
+                    ['7', 60415.59],
+                    ['8', 80583.31],
+                    ['9', 104744.23],
+                    ['10', 133689.01],
+                    ['12', 168364.87],
+                    ['13', 209906.54],
+                    ['14', 259673.46],
+                    ['15', 319294.24],
+                    ['16', 390719.93],
+                    ['17', 476287.90],
+                    ['18', 578798.33],
+                    ['19', 701605.83],
+                    ['20', 848729.21],
+                    ['21', 1024983.02],
+                    ['22', 1236135.09],
+                    ['23', 1489095.27],
+                    ['24', 1792141.56],
+                    ['24', 1892141.56]
+                ],
+                dataLabels: {
+                    enabled: true,
+                    formatter: function() {
+                        return 'R$ ' + this.y.toLocaleString('pt-br', {
+                            minimumFractionDigits: 2
+                        });
+                    },
+                    rotation: -90,
+                    color: '#7F7F7F',
+                    align: 'right',
+                    y: -158,
+                    style: {
+                        fontSize: '16px',
+                        fontFamily: 'Verdana, sans-serif',
+                        fontWeight: 'bold'
+                    }
+                }
+            }]
+        });
+    </script>
 
 
 </body>
